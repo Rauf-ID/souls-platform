@@ -7,7 +7,7 @@ interface SoulCardProps {
 }
 
 const SoulCard: React.FC<SoulCardProps> = ({ 
-    name, birthYear, deathYear 
+    name,  birthYear, deathYear 
 }): JSX.Element => {
     return (
         <div>
